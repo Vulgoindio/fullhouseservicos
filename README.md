@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Divulgação WhatsApp</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #f0f0f0;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+
+        header {
+            background: #25d366;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav {
+            background: #128c7e;
+            display: flex;
+            justify-content: center;
+        }
+
+        nav a {
+            color: white;
+            padding: 15px 20px;
+            text-decoration: none;
+            transition: background 0.3s;
+        }
+
+        nav a:hover {
+            background: #0e5e4a;
+        }
+
+        main {
+            padding: 20px;
+            flex: 1;
+        }
+
+        .whatsapp-button {
+            display: inline-block;
+            background-color: #25d366;
+            color: white;
+            padding: 15px 25px;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 18px;
+            margin-top: 20px;
+        }
+
+        footer {
+            background: #000000;
+            color: white;
+            text-align: center;
+            padding: 15px;
+        }
+
+        /* Header personalizado com logo e título centralizado */
+        header {
+            background-color: black;
+            color: white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+            position: relative;
+        }
+
+        header img {
+            height: 80px;
+            position: absolute;
+            left: 10px;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 44px;
+        }
+
+        /* Imagens dos serviços */
+        .servicos-imagens {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            margin-top: 20px;
+        }
+
+        .servicos-imagens img {
+            width: 300px;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <!-- Logo no canto esquerdo -->
+        <img src="https://i.imgur.com/WqTbR8h.jpeg" alt="Full House Serviços">
+
+        <!-- Título centralizado -->
+        <h1>FULL HOUSE SERVIÇOS</h1>
+    </header>
+
+    <nav>
+        <a href="#inicio">Início</a>
+        <a href="#quem-somos">Quem Somos</a>
+        <a href="#servicos">Serviços</a>
+    </nav>
+
+    <main>
+        <section id="inicio">
+            <h2>Entre em contato direto!</h2>
+            <p>Clique no botão abaixo para nos chamar no WhatsApp.</p>
+            <a class="whatsapp-button" href="https://wa.me/55911977578019" target="_blank">Falar no WhatsApp</a>
+        </section>
+
+        <section id="quem-somos">
+            <h2>Quem Somos</h2>
+            <p>
+                Full House Serviços é uma empresa especializada em reformas e serviços residenciais em geral.
+                Com anos de experiência no mercado, oferecemos soluções completas e personalizadas para transformar e valorizar cada ambiente da sua casa, do piso ao teto.
+                Nosso compromisso é com a qualidade, eficiência e satisfação do cliente. Atuamos com uma equipe de profissionais qualificados e prontos para atender desde pequenas manutenções até grandes reformas, sempre com atenção aos detalhes e respeito pelos prazos.
+            </p>
+        </section>
+
+        <section id="servicos">
+            <h2>Serviços</h2>
+            <p>Confira alguns dos nossos principais serviços:</p>
+            <ul>
+                <li>Reformas completas</li>
+                <li>Pintura interna e externa</li>
+                <li>Instalações elétricas e hidráulicas</li>
+                <li>Acabamentos, revestimentos e pisos</li>
+                <li>Gesso, drywall e forros</li>
+                <li>Marcenaria, alvenaria e muito mais</li>
+            </ul>
+
+            <div class="servicos-imagens">
+                <img src="https://i.imgur.com/4FQUj83_d.webp?maxwidth=760&fidelity=grand" alt="Corredor">
+                <img src="https://i.imgur.com/syBer1y.jpeg" alt="Elétrica">
+                <img src="https://i.imgur.com/CJukAbZ.jpeg" alt="Pintura ">
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; Full House Serviços 2025 - Todos os direitos reservados.</p>
+    </footer>
+
+</body>
+</html>
